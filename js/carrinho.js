@@ -60,19 +60,19 @@ function filtrarProdutos(categoria) {
 
 
 document.querySelector('.categ1').addEventListener('click', function() {
-  window.location.href = './carrinho.html?categoria=calçados';
+  window.location.href = '../views/carrinho.html?categoria=calçados';
 });
 
 document.querySelector('.categ2').addEventListener('click', function() {
-  window.location.href = './carrinho.html?categoria=blusas';
+  window.location.href = '../views/carrinho.html?categoria=blusas';
 });
 
 document.querySelector('.categ3').addEventListener('click', function() {
-  window.location.href = './carrinho.html?categoria=calças';
+  window.location.href = '../views/carrinho.html?categoria=calças';
 });
 
 document.querySelector('.categ4').addEventListener('click', function() {
-  window.location.href = './carrinho.html';
+  window.location.href = '../views/carrinho.html';
 });
 
 
